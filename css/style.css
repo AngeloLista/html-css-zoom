@@ -53,9 +53,14 @@ main {
     text-align: center;
 }
 
+#avatar-gallery {
+
+}
+
 main figure {
     display: inline-block;
     position: relative;
+    margin: 5px 1px;
 }
 
 .user-id {
