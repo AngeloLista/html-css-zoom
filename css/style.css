@@ -28,17 +28,58 @@ body {
 /* Header */
 
 header {
-    height: 70px;
+    height: 100px;
     background-color: black;
+    text-align: right;
 }
 
+header button {
+    background-color: gray;
+    color: white;
+    padding: 1px 3px;
+    border-radius: 5px;
+}
+
+.buttons {
+    margin: 5px 5px;
+}
+
+
+/* Main */
 main {
-    background-color: red;
+    background-color: black;
     flex-grow: 1;
     overflow: auto;
+    text-align: center;
 }
 
+main figure {
+    display: inline-block;
+    position: relative;
+}
+
+.user-id {
+    display: inline-block;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.6);
+    padding: 5px 5px;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
 footer {
-    background-color: gray;
-    height: 100px;
+    background-color: black;
+    height: 150px;
 }
