@@ -80,6 +80,6 @@ main figure {
 
 /* Footer */
 footer {
-    background-color: black;
-    height: 150px;
+    background-color: rgb(34, 34, 34);
+    height: 90px;
 }
