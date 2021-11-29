@@ -116,10 +116,23 @@ footer .control-expand {
 
 footer .control {
     margin-left: 15px;
+    transition: color 0.5s;
+}
+
+footer .control:hover {
+    color: #4bc800;
 }
 
 footer .controls {
     display: flex;
     align-items: center;
     text-align: center;
+    cursor: pointer;
+}
+
+#end-meeting {
+    background-color: rgb(74, 74, 74);
+    color: red;
+    border: none;
+    padding: 10px;
 }
