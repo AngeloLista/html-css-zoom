@@ -63,7 +63,6 @@ main figure {
 }
 
 main figure:hover {
-    transform: scale(1.1);
     z-index: 1;
     border: 1px solid yellow;
 }
@@ -76,6 +75,12 @@ main figure:hover {
     position: absolute;
     bottom: 3px;
     left: 0;
+    cursor: pointer;
+}
+
+
+.user-avatar:hover {
+    color: red
 }
 
 
