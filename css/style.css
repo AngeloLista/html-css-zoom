@@ -53,14 +53,18 @@ main {
     text-align: center;
 }
 
-#avatar-gallery {
-
-}
 
 main figure {
     display: inline-block;
     position: relative;
     margin: 5px 1px;
+    transition: 0.5s;
+}
+
+main figure:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    border: 1px solid yellow;
 }
 
 .user-avatar {
@@ -110,9 +114,6 @@ footer .control-expand {
     font-size: 13px;
 }
 
-.f-left {
-    float: left;
-}
 
 footer .control {
     margin-left: 15px;
@@ -130,6 +131,8 @@ footer .controls {
     cursor: pointer;
 }
 
+
+/* End Meeting Button */
 #end-meeting {
     display: flex;
     height: 100%;
