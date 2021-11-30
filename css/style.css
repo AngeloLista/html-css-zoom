@@ -64,7 +64,7 @@ main figure {
 
 main figure:hover {
     z-index: 1;
-    border: 1px solid yellow;
+    box-shadow: 0 0 0px 3px yellow;
 }
 
 .user-avatar {
